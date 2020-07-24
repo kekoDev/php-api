@@ -124,14 +124,6 @@ if (isset($_GET)) {
         $text = str_replace('و', 'g', $text);
         $text = str_replace('ى', 'ʟɾʅ', $text);
         $new_text[] = $text;
-        $new_text[] = $text;
-        $new_text[] = $text;
-        $new_text[] = $text;
-        $new_text[] = $text;
-        $new_text[] = $text;
-        $new_text[] = $text;
-        $new_text[] = $text;
-        $new_text[] = $text;
         /// end 2 
         echo json_encode([
             "ok"=>true,
